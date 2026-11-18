@@ -1,0 +1,355 @@
+<!--
+  Baseado no template Bicho Bom · Banho, tosa e pet spa — criado por Upward Academy.
+  © 2026 Upward Academy · UPW-BICHOBOM-P2W7 · licença __UPW_LICENCA__
+  Uso e adaptação para clientes finais permitidos; revenda e redistribuição proibidas (LICENCA.txt).
+  https://app.upwardacademy.com.br/app/templates
+
+  Fotos de serviços e galeria ainda são do Unsplash: trocar pelas fotos reais da clínica.
+-->
+<!doctype html>
+<html lang="pt-BR" data-upw="UPW-BICHOBOM-P2W7">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Clínica Veterinária Latalisa · Prado, Belo Horizonte</title>
+  <meta name="description" content="Consulta clínica, vacinação, exames laboratoriais e de imagem, cirurgia geral e internação para cães e gatos no Prado, em Belo Horizonte. Agende pelo WhatsApp.">
+  <meta name="upw-template" content="UPW-BICHOBOM-P2W7">
+  <meta name="upw-licenca" content="__UPW_LICENCA__">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Clínica Veterinária Latalisa · Medicina veterinária com propósito">
+  <meta property="og:description" content="Consultas, vacinas, exames, cirurgia e internação para cães e gatos no Prado, BH. Agende pelo WhatsApp.">
+  <meta property="og:image" content="img/logo/emblema-512.png">
+  <meta name="theme-color" content="#34bcbe">
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"VeterinaryCare","name":"Clínica Veterinária Latalisa","slogan":"Medicina veterinária com propósito","logo":"img/logo/emblema-512.png","image":"img/logo/emblema-512.png","employee":{"@type":"Person","name":"Bárbara Latalisa Carmo","jobTitle":"Médica veterinária · CRMV-MG 19791"},"telephone":"+55-31-98104-9102","openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"18:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"08:00","closes":"14:00"}],"address":{"@type":"PostalAddress","streetAddress":"Rua Chopin, 314","addressLocality":"Belo Horizonte","addressRegion":"MG","addressCountry":"BR","description":"Bairro Prado"},"sameAs":["https://www.instagram.com/veterinarialatalisa/"]}
+  </script>
+</head>
+<body>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="pata" viewBox="0 0 40 40"><ellipse cx="20" cy="26" rx="8.5" ry="7.2"/><circle cx="9.5" cy="16.5" r="3.8"/><circle cx="16" cy="9.5" r="3.8"/><circle cx="24" cy="9.5" r="3.8"/><circle cx="30.5" cy="16.5" r="3.8"/></symbol>
+  <symbol id="coracao" viewBox="0 0 40 40"><path d="M20 35S4 25.6 4 14.2A8.2 8.2 0 0 1 20 11a8.2 8.2 0 0 1 16 3.2C36 25.6 20 35 20 35Z"/></symbol>
+</svg>
+
+<header class="topo" id="topo">
+  <div class="topo__barra wrap">
+    <a class="marca" href="#inicio" aria-label="Clínica Veterinária Latalisa, voltar ao início">
+      <img class="marca__emblema" src="img/logo/emblema-160.webp" width="160" height="160" alt="">
+      <span class="marca__nome"><small>Clínica Veterinária</small>Latalisa</span>
+    </a>
+    <nav class="menu" id="menu" aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#como-funciona">Como funciona</a>
+      <a href="#cuidado">Cada fase</a>
+      <a href="#visite">Endereço</a>
+      <a href="#duvidas">Dúvidas</a>
+    </nav>
+    <a class="botao botao--pequeno topo__cta" href="#" data-whatsapp="Olá! Quero agendar uma consulta na Clínica Latalisa.">Agendar consulta</a>
+    <button class="topo__abrir" id="abrir" aria-label="Abrir o menu" aria-expanded="false" aria-controls="menu"><span></span><span></span></button>
+  </div>
+</header>
+
+<main>
+  <!-- ============ HERO ============ -->
+  <section class="hero" id="inicio">
+    <div class="wrap hero__grade">
+      <div class="hero__texto">
+        <p class="etiqueta surge"><svg aria-hidden="true"><use href="#pata"/></svg> Clínica veterinária · Prado, Belo Horizonte</p>
+        <h1 class="titulo-xl surge">Medicina veterinária <span class="grifo">com propósito</span>.</h1>
+        <p class="hero__lead surge">Consulta, vacinas, exames, cirurgia e internação para cães e gatos no mesmo endereço. A gente explica cada passo do tratamento e mantém você por perto, do primeiro atendimento à alta.</p>
+        <div class="hero__acoes surge">
+          <a class="botao botao--coral" href="#" data-whatsapp="Olá! Quero agendar uma consulta na Clínica Latalisa.">Agendar pelo WhatsApp</a>
+          <a class="botao botao--linha" href="#servicos">Ver serviços</a>
+        </div>
+        <ul class="hero__provas surge">
+          <li><span><b>Cães e gatos</b> de todas as idades</span></li>
+          <li><span><b>Exames</b> laboratoriais e de imagem</span></li>
+          <li><span><b>Internação</b> com notícias do seu pet</span></li>
+        </ul>
+      </div>
+
+      <div class="colagem surge" aria-label="Pacientes da Clínica Latalisa">
+        <figure class="colagem__foto colagem__foto--a">
+          <img src="img/bichon-800.webp" srcset="img/bichon-800.webp 800w, img/bichon.webp 1600w" sizes="(max-width: 960px) 52vw, 26vw" width="800" height="1200" fetchpriority="high" alt="Bichon frisé branco sentado olhando para a câmera">
+        </figure>
+        <figure class="colagem__foto colagem__foto--b">
+          <img src="img/beagle-800.webp" width="800" height="600" alt="Beagle sorrindo de boca aberta num parque">
+        </figure>
+        <figure class="colagem__foto colagem__foto--c">
+          <img src="img/verde-800.webp" width="800" height="1200" alt="Shih-tzu sorrindo com bandana verde">
+        </figure>
+        <p class="adesivo adesivo--1"><svg viewBox="0 0 24 24" class="adesivo__gota" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z"/></svg> Pacientes<br>exigentes? Temos.</p>
+        <p class="adesivo adesivo--2"><svg aria-hidden="true"><use href="#pata"/></svg> Rua Chopin, 314<br>Prado · BH</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DIFERENCIAIS ============ -->
+  <section class="cuidados" aria-label="Como cuidamos">
+    <ul class="wrap cuidados__lista">
+      <li class="revela"><span class="cuidados__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></span><p><b>Consulta sem pressa</b>Tempo para examinar com calma e responder às suas dúvidas.</p></li>
+      <li class="revela"><span class="cuidados__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/></svg></span><p><b>Exames no mesmo lugar</b>Laboratoriais e de imagem, para chegar ao diagnóstico mais rápido.</p></li>
+      <li class="revela"><span class="cuidados__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 11c0 5.6-7 10-7 10Z"/></svg></span><p><b>Manejo gentil</b>Cuidado redobrado com pets medrosos, idosos e gatos.</p></li>
+      <li class="revela"><span class="cuidados__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H9l-5 4V5Z"/><path d="M8 10h8M8 13h5"/></svg></span><p><b>Tutor sempre informado</b>Notícias pelo WhatsApp durante exames e internação.</p></li>
+    </ul>
+  </section>
+
+  <!-- ============ SERVIÇOS ============ -->
+  <section class="secao" id="servicos">
+    <div class="wrap">
+      <div class="cabeca">
+        <p class="etiqueta">Serviços</p>
+        <h2 class="titulo-l">Da prevenção à cirurgia, <span class="grifo grifo--menta">no mesmo lugar</span></h2>
+        <p class="cabeca__texto">Atendemos cães e gatos. Os valores dependem da avaliação de cada paciente: pergunte pelo WhatsApp.</p>
+      </div>
+
+      <div class="servicos">
+        <article class="servico servico--banho revela">
+          <figure class="servico__foto"><img src="img/beagle-800.webp" srcset="img/beagle-800.webp 800w, img/beagle.webp 1600w" sizes="(max-width: 960px) 92vw, 56vw" width="800" height="600" loading="lazy" decoding="async" alt="Beagle feliz ao ar livre"></figure>
+          <div class="servico__corpo">
+            <h3>Consulta clínica</h3>
+            <p>Avaliação completa, check-up de rotina, acompanhamento de doenças crônicas e orientação sobre alimentação e comportamento.</p>
+            <a class="servico__mais" href="#" data-whatsapp="Olá! Quero agendar uma consulta clínica.">Agendar consulta →</a>
+          </div>
+        </article>
+        <article class="servico servico--tosa revela">
+          <figure class="servico__foto"><img src="img/amigos-800.webp" srcset="img/amigos-800.webp 800w, img/amigos.webp 1600w" sizes="(max-width: 960px) 92vw, 40vw" width="800" height="1200" loading="lazy" decoding="async" alt="Corgi e cachorro de pelo curto sentados lado a lado em frente a girassóis"></figure>
+          <div class="servico__corpo">
+            <h3>Vacinação</h3>
+            <p>Protocolo para filhotes e reforços anuais de cães e gatos, com a carteira sempre atualizada.</p>
+            <a class="servico__mais" href="#" data-whatsapp="Olá! Quero agendar a vacinação do meu pet.">Agendar vacina →</a>
+          </div>
+        </article>
+        <article class="servico servico--hidra revela">
+          <span class="servico__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 1.8 3h10.4a2 2 0 0 0 1.8-3l-5-9V3"/><path d="M7.5 15h9"/></svg></span>
+          <div class="servico__corpo">
+            <h3>Exames</h3>
+            <p>Laboratoriais e de imagem, solicitados na consulta ou como check-up preventivo.</p>
+            <a class="servico__mais" href="#" data-whatsapp="Olá! Quero saber sobre exames para o meu pet.">Saber mais →</a>
+          </div>
+        </article>
+        <article class="servico servico--taxi revela">
+          <span class="servico__icone"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 3v5a6 6 0 0 0 12 0V3"/><path d="M12 14v2a4 4 0 0 0 8 0v-1"/><circle cx="20" cy="13" r="2"/></svg></span>
+          <div class="servico__corpo">
+            <h3>Cirurgia geral</h3>
+            <p>Castração e outros procedimentos, com avaliação pré-anestésica e acompanhamento no pós-operatório.</p>
+            <a class="servico__mais" href="#" data-whatsapp="Olá! Quero agendar uma avaliação cirúrgica.">Agendar avaliação →</a>
+          </div>
+        </article>
+        <article class="servico servico--creche revela">
+          <figure class="servico__foto"><img src="img/correndo-800.webp" srcset="img/correndo-800.webp 800w, img/correndo.webp 1600w" sizes="(max-width: 960px) 92vw, 56vw" width="800" height="533" loading="lazy" decoding="async" alt="Cachorrinho de pelo claro correndo feliz na grama"></figure>
+          <div class="servico__corpo">
+            <h3>Internação</h3>
+            <p>Quando o pet precisa ficar, a equipe acompanha de perto e manda notícias para você ao longo do dia.</p>
+            <a class="servico__mais" href="#" data-whatsapp="Olá! Quero saber sobre a internação na Clínica Latalisa.">Saber mais →</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ COMO FUNCIONA ============ -->
+  <section class="secao secao--rosa" id="como-funciona">
+    <div class="wrap">
+      <div class="cabeca cabeca--centro">
+        <p class="etiqueta">Como funciona</p>
+        <h2 class="titulo-l">Do agendamento ao <span class="grifo">rabinho abanando</span></h2>
+      </div>
+      <ol class="passos">
+        <li class="passo revela"><span class="passo__num">1</span><h3>Agende</h3><p>Pelo WhatsApp: diga o nome do pet, a espécie e o motivo da consulta.</p></li>
+        <li class="passo revela"><span class="passo__num">2</span><h3>Traga o histórico</h3><p>Carteira de vacinação, exames anteriores e a lista de remédios que ele toma.</p></li>
+        <li class="passo revela"><span class="passo__num">3</span><h3>Consulta</h3><p>Exame clínico completo. Se precisar de exames, explicamos o porquê de cada um.</p></li>
+        <li class="passo revela"><span class="passo__num">4</span><h3>Acompanhamento</h3><p>Receita e orientações por escrito, e retorno marcado quando for preciso.</p></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ CADA FASE ============ -->
+  <section class="secao" id="cuidado">
+    <div class="wrap">
+      <div class="cabeca">
+        <p class="etiqueta">Cada fase da vida</p>
+        <h2 class="titulo-l">Cuidado certo <span class="grifo grifo--manteiga">em cada idade</span></h2>
+        <p class="cabeca__texto">O que costuma entrar na rotina do seu pet em cada fase. Na consulta, o plano é ajustado para ele.</p>
+      </div>
+
+      <div class="pacotes">
+        <article class="pacote revela">
+          <h3>Filhote</h3>
+          <p class="pacote__resumo">Até 1 ano. A fase de montar a proteção.</p>
+          <ul class="pacote__itens"><li>Protocolo de vacinas</li><li>Vermifugação e controle de pulgas</li><li>Orientação de alimentação e socialização</li><li>Conversa sobre castração</li></ul>
+          <a class="botao botao--linha" href="#" data-whatsapp="Olá! Tenho um filhote e quero agendar a primeira consulta.">Agendar</a>
+        </article>
+        <article class="pacote pacote--destaque revela">
+          <h3>Adulto</h3>
+          <p class="pacote__resumo">De 1 a 7 anos. Prevenção para continuar bem.</p>
+          <ul class="pacote__itens"><li>Check-up anual</li><li>Reforço das vacinas</li><li>Avaliação de peso e dentes</li><li>Exames de rotina quando indicados</li></ul>
+          <a class="botao botao--coral" href="#" data-whatsapp="Olá! Quero agendar um check-up para o meu pet.">Agendar check-up</a>
+        </article>
+        <article class="pacote revela">
+          <h3>Sênior</h3>
+          <p class="pacote__resumo">A partir de 7 anos. Atenção redobrada.</p>
+          <ul class="pacote__itens"><li>Consultas mais frequentes</li><li>Exames laboratoriais e de imagem</li><li>Controle de dor e mobilidade</li><li>Acompanhamento de doenças crônicas</li></ul>
+          <a class="botao botao--linha" href="#" data-whatsapp="Olá! Meu pet é idoso e quero agendar uma consulta.">Agendar</a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALERIA ============ -->
+  <section class="secao secao--menta" id="galeria">
+    <div class="wrap">
+      <div class="cabeca cabeca--centro">
+        <p class="etiqueta">Nossos pacientes</p>
+        <h2 class="titulo-l">Pacientes de <span class="grifo">quatro patas</span></h2>
+      </div>
+      <div class="polaroides">
+        <figure class="polaroide revela"><img src="img/amarelo-800.webp" width="800" height="1198" loading="lazy" decoding="async" alt="Cachorrinho de camiseta estampada em fundo amarelo"><figcaption>Check-up</figcaption></figure>
+        <figure class="polaroide revela"><img src="img/beagle-800.webp" width="800" height="600" loading="lazy" decoding="async" alt="Beagle sorrindo de boca aberta num parque"><figcaption>Vacinas em dia</figcaption></figure>
+        <figure class="polaroide revela"><img src="img/amigos-800.webp" width="800" height="1200" loading="lazy" decoding="async" alt="Corgi e cachorro de pelo curto sentados lado a lado"><figcaption>Consulta</figcaption></figure>
+        <figure class="polaroide revela"><img src="img/verde-800.webp" width="800" height="1200" loading="lazy" decoding="async" alt="Shih-tzu de bandana verde sorrindo"><figcaption>Cuidado sênior</figcaption></figure>
+        <figure class="polaroide revela"><img src="img/rosa-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Jack Russell de orelhas em pé em fundo rosa"><figcaption>Castração</figcaption></figure>
+        <figure class="polaroide revela"><img src="img/correndo-800.webp" width="800" height="533" loading="lazy" decoding="async" alt="Cachorrinho fofo correndo na grama"><figcaption>Primeira consulta</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ DEPOIMENTOS ============ -->
+  <section class="secao" id="depoimentos">
+    <div class="wrap">
+      <div class="cabeca">
+        <p class="etiqueta">Quem é tutor aqui</p>
+        <h2 class="titulo-l">O que os tutores <span class="grifo grifo--lavanda">contam</span></h2>
+      </div>
+      <div class="depoimentos">
+        <blockquote class="depo depo--rosa revela"><p>“A melhor veterinária de todas. A Bárbara cuida do meu bebê há quase 6 anos, há 1 ano cuida dos meus gatinhos e eu só tenho a agradecer por tudo e por tanto. Ela é paciente, cuidadosa, amorosa e confiável. Uma profissional impecável!”</p><footer><b>Lilian F.</b> · avaliação no Google</footer></blockquote>
+        <blockquote class="depo depo--manteiga revela"><p>“Atendimento impecável, visão holística do pet. Clareza no diagnóstico e tratamento. Salvou a vida do meu Maike. Valor justo. Trabalho por amor.”</p><footer><b>Wellington F.</b> · avaliação no Google</footer></blockquote>
+        <blockquote class="depo depo--lavanda revela"><p>“Bárbara é uma profissional de excelência e trata os seus pacientes com seriedade e os tutores com empatia e humanidade. Ela cuida do meu gato desde que o adotei (…) é a melhor indicação que eu posso dar para quem possui gatos.”</p><footer><b>Laís M.</b> · avaliação no Google</footer></blockquote>
+        <blockquote class="depo depo--rosa revela"><p>“Melhor atendimento impossível! Além de competente como veterinária, a Bárbara e toda a equipe da clínica trataram meu companheirinho com muito amor e carinho. Quando fui buscá-lo, após uma castração, ele queria ficar junto das meninas da clínica o tempo todo.”</p><footer><b>Marcus K.</b> · avaliação no Google</footer></blockquote>
+        <blockquote class="depo depo--manteiga revela"><p>“Atendimento acolhedor, recebi orientações claras e precisas sobre o estado de saúde dos meus 3 doguinhos (…) Exame físico afetuoso, sem desconforto para os cachorros. Minha primeira e única opção pra cuidar da saúde da minha família canina!”</p><footer><b>Rosângela R.</b> · avaliação no Google</footer></blockquote>
+        <blockquote class="depo depo--lavanda revela"><p>“Profissional maravilhosa, humana tanto com o pet como com o tutor. Me acolheu no momento mais difícil com a minha idosinha Susi de 19 aninhos. Obrigada, Latalisa, por todo cuidado e carinho dedicado à minha pequena Susi!”</p><footer><b>Fátima R.</b> · avaliação no Google</footer></blockquote>
+      </div>
+      <p class="depo__fonte"><a href="https://www.google.com/maps/search/?api=1&amp;query=Cl%C3%ADnica+Veterin%C3%A1ria+Latalisa+Prado+Belo+Horizonte" target="_blank" rel="noopener">Ver todas as avaliações no Google →</a></p>
+    </div>
+  </section>
+
+  <!-- ============ AGENDAR ============ -->
+  <section class="agendar" id="agendar">
+    <div class="wrap agendar__grade">
+      <div class="agendar__texto">
+        <p class="etiqueta etiqueta--clara">Agendamento</p>
+        <h2 class="titulo-l">Marque a consulta em <span class="grifo grifo--coral">dois minutos</span></h2>
+        <p>Escolha o motivo e o período, e a gente confirma o horário pelo WhatsApp. Sem cadastro, sem aplicativo.</p>
+        <ul class="agendar__lista">
+          <li>Seg a sex, 8h às 18h · sáb, 8h às 14h</li>
+          <li>Atendemos cães e gatos</li>
+          <li>Traga a carteira de vacinação e exames anteriores</li>
+        </ul>
+      </div>
+      <form class="pedido revela" id="pedido" aria-label="Pedido de agendamento">
+        <p class="pedido__titulo"><svg aria-hidden="true"><use href="#pata"/></svg> Agende a consulta</p>
+        <label>Nome do pet<input type="text" name="pet" placeholder="Ex.: Paçoca" autocomplete="off"></label>
+        <div class="pedido__linha">
+          <label>Espécie
+            <select name="especie"><option>Cão</option><option>Gato</option></select>
+          </label>
+          <label>Período
+            <select name="periodo"><option>Manhã</option><option>Tarde</option></select>
+          </label>
+        </div>
+        <label>Motivo
+          <select name="motivo">
+            <option>Consulta clínica</option><option>Vacinação</option><option>Check-up e exames</option><option>Avaliação para cirurgia ou castração</option><option>Retorno</option>
+          </select>
+        </label>
+        <label class="pedido__check"><input type="checkbox" name="primeira"> É a primeira vez na clínica</label>
+        <button class="botao botao--coral" type="submit">Enviar pelo WhatsApp</button>
+        <p class="pedido__nota">Abre o WhatsApp com a mensagem pronta. Nada é enviado sem você tocar em enviar. Emergências: atendemos no horário de funcionamento, ligue antes de vir.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ============ VISITE ============ -->
+  <section class="secao" id="visite">
+    <div class="wrap visite">
+      <figure class="visite__foto revela">
+        <img src="img/bichon-800.webp" srcset="img/bichon-800.webp 800w, img/bichon.webp 1600w" sizes="(max-width: 960px) 92vw, 40vw" width="800" height="1200" loading="lazy" decoding="async" alt="Bichon frisé branco sentado olhando para a câmera">
+        <figcaption class="visite__selo"><svg aria-hidden="true"><use href="#pata"/></svg> Cães<br>e gatos</figcaption>
+      </figure>
+      <div class="visite__texto">
+        <p class="etiqueta">Endereço e horário</p>
+        <h2 class="titulo-l">Estamos no <span class="grifo">Prado</span></h2>
+        <dl class="dados">
+          <div><dt>Endereço</dt><dd>Rua Chopin, 314 · Prado, Belo Horizonte · MG</dd></div>
+          <div><dt>Horário</dt><dd>Segunda a sexta, 8h às 18h<br>Sábado, 8h às 14h · domingo fechado</dd></div>
+          <div><dt>Responsável</dt><dd>Dra. Bárbara Latalisa Carmo · CRMV-MG 19791</dd></div>
+          <div><dt>Contato</dt><dd><a href="#" data-whatsapp="Olá! Tenho uma dúvida sobre a Clínica Latalisa.">(31) 98104-9102</a> · <a href="https://www.instagram.com/veterinarialatalisa/" target="_blank" rel="noopener">@veterinarialatalisa</a></dd></div>
+        </dl>
+        <div class="hero__acoes">
+          <a class="botao" href="#" data-whatsapp="Olá! Quero agendar uma consulta na Clínica Latalisa.">Falar no WhatsApp</a>
+          <a class="botao botao--linha" href="https://www.google.com/maps/search/?api=1&amp;query=Rua+Chopin+314+Prado+Belo+Horizonte+MG" target="_blank" rel="noopener">Abrir no mapa</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FAQ ============ -->
+  <section class="secao secao--manteiga" id="duvidas">
+    <div class="wrap faq">
+      <div class="cabeca">
+        <p class="etiqueta">Dúvidas</p>
+        <h2 class="titulo-l">Perguntas de <span class="grifo">tutor</span></h2>
+        <p class="cabeca__texto">Não achou a sua? Chama no WhatsApp que a gente responde.</p>
+      </div>
+      <div class="faq__lista">
+        <details class="pergunta" open><summary>Vocês atendem gatos?</summary><p>Sim, atendemos cães e gatos. Para os gatos, use uma caixa de transporte fechada e, se puder, cubra com uma toalha durante a espera.</p></details>
+        <details class="pergunta"><summary>Preciso agendar ou posso chegar?</summary><p>Agende pelo WhatsApp para garantir o horário e evitar espera. Se for urgente, ligue antes de sair de casa para a equipe se preparar.</p></details>
+        <details class="pergunta"><summary>Vocês atendem emergência?</summary><p>Sim, atendemos emergências dentro do horário de funcionamento: segunda a sexta, das 8h às 18h, e sábado, das 8h às 14h. Ligue ou mande mensagem antes de sair de casa para a equipe já se preparar. Fora desse horário, procure um hospital veterinário 24h.</p></details>
+        <details class="pergunta"><summary>Quais vacinas meu pet precisa?</summary><p>Depende da espécie, da idade e da rotina. Em geral, cães tomam a polivalente (V8 ou V10) e a antirrábica, e gatos a polivalente felina e a antirrábica. Na consulta montamos o calendário certo para ele.</p></details>
+        <details class="pergunta"><summary>Os exames são feitos na clínica?</summary><p>A clínica oferece exames laboratoriais e de imagem. Na consulta, o veterinário indica quais são necessários e explica o que cada um avalia.</p></details>
+        <details class="pergunta"><summary>Como fico sabendo do meu pet na internação?</summary><p>A equipe manda notícias pelo WhatsApp ao longo do dia e avisa na hora se algo mudar no quadro.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="rodape" data-upw="UPW-BICHOBOM-P2W7">
+  <div class="wrap rodape__grade">
+    <div>
+      <a class="marca marca--clara" href="#inicio">
+        <img class="marca__emblema" src="img/logo/emblema-160.webp" width="160" height="160" alt="">
+        <span class="marca__nome"><small>Clínica Veterinária</small>Latalisa</span>
+      </a>
+      <p class="rodape__frase">Medicina veterinária com propósito.</p>
+      <p class="rodape__contato">
+        <a href="tel:+5531981049102">(31) 98104-9102</a>
+        <a href="#" data-whatsapp="Olá! Vim pelo site da Clínica Latalisa.">WhatsApp</a>
+        <a href="https://www.instagram.com/veterinarialatalisa/" target="_blank" rel="noopener">Instagram</a>
+      </p>
+    </div>
+    <nav class="rodape__links" aria-label="Rodapé">
+      <a href="#servicos">Serviços</a><a href="#cuidado">Cada fase</a><a href="#agendar">Agendar</a><a href="#visite">Endereço</a><a href="#duvidas">Dúvidas</a>
+    </nav>
+  </div>
+  <div class="wrap rodape__base">
+    <span>© <span id="ano">2026</span> Clínica Veterinária Latalisa · Rua Chopin, 314, Prado, Belo Horizonte, MG</span>
+    <span>Responsável técnica: Dra. Bárbara Latalisa Carmo · CRMV-MG 19791</span>
+  </div>
+</footer>
+
+<a class="zap-flutuante" href="#" data-whatsapp="Olá! Quero agendar uma consulta na Clínica Latalisa." aria-label="Falar no WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3a13 13 0 0 0-11.2 19.6L3 29l6.6-1.7A13 13 0 1 0 16 3Zm0 23.6a10.6 10.6 0 0 1-5.4-1.5l-.4-.2-3.9 1 1-3.8-.2-.4A10.6 10.6 0 1 1 16 26.6Zm5.8-7.9c-.3-.2-1.9-.9-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 0 1-4.3-3.8c-.3-.6.3-.5.9-1.7a.6.6 0 0 0 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 0 0-.9.4 3.6 3.6 0 0 0-1.1 2.7 6.3 6.3 0 0 0 1.3 3.3 14.4 14.4 0 0 0 5.5 4.9c2 .9 2.8 1 3.9.8a3.3 3.3 0 0 0 2.1-1.5 2.7 2.7 0 0 0 .2-1.5c-.1-.2-.3-.3-.7-.4Z"/></svg>
+</a>
+
+<script src="js/main.js"></script>
+</body>
+</html>

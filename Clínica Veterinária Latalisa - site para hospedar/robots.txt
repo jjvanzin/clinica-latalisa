@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# UPW-BICHOBOM-P2W7 · __UPW_LICENCA__
